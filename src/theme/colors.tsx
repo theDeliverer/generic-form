@@ -1,6 +1,8 @@
 export const brandRed = 'rgb(197, 69, 67)'
 
 
+// color set copied from atlaskit
+
 // Reds
 export const atlasR50 = '#FFEBE6'
 export const atlasR75 = '#FFBDAD'
