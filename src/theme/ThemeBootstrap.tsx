@@ -6,8 +6,10 @@ import { createGlobalStyle } from 'styled-components'
 const ViewPortScaling = createGlobalStyle`
   /* sets relative size  */
   html {
-    font-size: 12px;
-  
+    font-size: 16px;
+    > * {
+        box-sizing: border-box;
+    }
   }
 `
 

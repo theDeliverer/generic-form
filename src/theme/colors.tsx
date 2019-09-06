@@ -1,3 +1,5 @@
+export const brandRed = 'rgb(197, 69, 67)'
+
 
 // Reds
 export const atlasR50 = '#FFEBE6'
