@@ -1,7 +1,7 @@
 import * as  React from 'react'
 import styled from 'styled-components'
 import {FieldLabel} from "../FieldLabel"
-import {Span} from "../../Text"
+import {P} from "../../Text"
 import {spacing} from "../../../theme/helpers"
 import {atlasR300} from "../../../theme/colors"
 import {Input} from "../primatives/Input"
@@ -66,8 +66,8 @@ export const TextField: React.FunctionComponent<Props> = (props) => {
     )
 }
 
-const Error = styled(Span)`
-    margin-top: ${spacing(0.5)}
+const Error = styled(P)`
+    margin-top: -${spacing(.5)}
 `
 
 const TextFieldWrapper = styled.div`
